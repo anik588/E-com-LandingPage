@@ -1,0 +1,145 @@
+/* .btn-slide{
+    width: 30px;
+    height: 50px;
+    background-color: aqua;
+    
+}
+.slider-div img{
+    width: 300px;
+    height: 300px;
+    padding: 5px;
+}
+.slider-div{
+    width: 320px;
+    height:320px ;
+    
+    background-color: greenyellow;
+    padding: 20px;
+    margin: 10px;
+    align-items: center;
+}
+.media-scroller{
+    display: grid;
+    grid-auto-flow: column;
+    
+    overflow-x:auto ;
+    overscroll-behavior-inline: contain;
+} */
+
+/* Slider.css */
+
+/* Style for the outer container of the slider */
+
+/* special */
+.slider-container {
+  display: grid;
+  grid-auto-flow: column;
+  grid-auto-columns: auto;
+  height: auto;
+  width: 100%;
+  padding-left:5% ;
+  padding-right:5% ;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  overflow-x:hidden ;
+  overscroll-behavior:smooth;
+  /* Optional: Enable smooth scrolling behavior */
+}
+
+/* Style for individual items/slides inside the slider */
+/* Style for the images container (.slider-div) */
+.slider-div {
+  /* display: flex; */
+  /* flex: 0 0 200px; */
+  box-sizing: border-box;
+  border-radius: 2rem;
+  box-shadow: 0 0 10px 5px rgba(0, 0, 0, 0.2);
+  height: auto;
+  font-size: large;
+  margin: 20px;
+  color: black;
+  padding: 30px;
+  transition: transform 0.3s ease;
+  width: 300px;
+}
+
+.slider-div:hover {
+  transform: scale(1.05);
+}
+
+/* Style for each image inside the slider */
+.slider-div img {
+  display: flex;
+  max-width: 150px;
+  height: 150px;
+  margin: 10px;
+
+  
+  /* Optional: Add margin between items for spacing */
+}
+
+/* Style for the left and right arrow buttons */
+.arrow-btn {
+  width: 40px;
+  height: 40px;
+  background-color: #f0f0f0;
+  border: none;
+  font-size: 20px;
+  cursor: pointer;
+}
+
+/* Style for the button positioning */
+.left {
+  left: 0;
+  /* Optional: Add spacing between the left button and the slider */
+}
+
+.right {
+  right: 0;
+  /* Optional: Add spacing between the slider and the right button */
+}
+
+/* Media Query for screens with a maximum width of 400px */
+
+
+.buy-btn {
+  background-color: orangered;
+  color: wheat;
+  padding: 10px;
+  align-content: center;
+  border-radius: 1.8rem;
+  justify-content: center;
+  margin-top: 10px;
+}
+
+.buy-btn:hover {
+  box-sizing: border-box;
+  box-shadow: 0px 8px 16px rgba(1, 4, 5, 0.3);
+  cursor: pointer;
+}
+
+  .btn-div{
+    display: flex;
+    float: left;
+    width: 100%;
+    margin: 0 auto;
+    justify-content: center;
+    align-items: center;
+  }
+@media (max-width: 400px) {
+  .btn-div p{
+    font-size: 1rem;
+    padding-left: 5px;
+    padding-right: 5px;
+  }
+  .btn-div{
+    margin: 0 auto;
+  }
+  .slider-div img {
+    display: flex;
+    max-width: 200px;
+    height: 150px;
+    margin-right: 10px;
+    /* Optional: Add margin between items for spacing */
+  }
+}
