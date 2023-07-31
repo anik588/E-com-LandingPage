@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/anik588/E-com-LandingPage.git/static/css/main.9ec09e07.css",
-    "main.js": "/anik588/E-com-LandingPage.git/static/js/main.cd3638e4.js",
-    "static/media/back-1-2.jpg": "/anik588/E-com-LandingPage.git/static/media/back-1-2.bd8b613111dcf7e3344d.jpg",
-    "static/media/back-1-1.jpg": "/anik588/E-com-LandingPage.git/static/media/back-1-1.b53737b5ca9e35f457c6.jpg",
-    "static/media/Logo.svg": "/anik588/E-com-LandingPage.git/static/media/Logo.c01c3659b000cfec8d5700adbc0546d9.svg",
-    "index.html": "/anik588/E-com-LandingPage.git/index.html",
-    "main.9ec09e07.css.map": "/anik588/E-com-LandingPage.git/static/css/main.9ec09e07.css.map",
-    "main.cd3638e4.js.map": "/anik588/E-com-LandingPage.git/static/js/main.cd3638e4.js.map"
+    "main.css": "/E-com-LandingPage/static/css/main.aa2f89e9.css",
+    "main.js": "/E-com-LandingPage/static/js/main.cab470ac.js",
+    "static/media/back-1-2.jpg": "/E-com-LandingPage/static/media/back-1-2.bd8b613111dcf7e3344d.jpg",
+    "static/media/back-1-1.jpg": "/E-com-LandingPage/static/media/back-1-1.b53737b5ca9e35f457c6.jpg",
+    "static/media/Logo.svg": "/E-com-LandingPage/static/media/Logo.c01c3659b000cfec8d5700adbc0546d9.svg",
+    "index.html": "/E-com-LandingPage/index.html",
+    "main.aa2f89e9.css.map": "/E-com-LandingPage/static/css/main.aa2f89e9.css.map",
+    "main.cab470ac.js.map": "/E-com-LandingPage/static/js/main.cab470ac.js.map"
   },
   "entrypoints": [
-    "static/css/main.9ec09e07.css",
-    "static/js/main.cd3638e4.js"
+    "static/css/main.aa2f89e9.css",
+    "static/js/main.cab470ac.js"
   ]
 }
