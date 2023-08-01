@@ -61,8 +61,22 @@ nav {
 .navbar-cart-icon {
   font-size: 1.15rem;
 }
-.primary-button:hover {
+.booking-button{
+  padding: 10px;
+  background-color: aliceblue;
+  color: black;
+  border: none;
+  width:150px;
+  height:50px;
+  border-radius: 0.5rem;
+  font-size: 1rem;
+  margin: 10px;
+
+}
+.booking-button:hover {
   background-color: rgb(234, 234, 234);
+  transform: scale(1.1);
+  cursor: grab;
 }
 .navbar-menu-container svg {
   
@@ -156,28 +170,25 @@ nav {
 
 }
 
-@media (max-width: 1000px) {
+@media (min-width: 1000px) {
   .navbar-links-container a {
     margin-right: 1rem;
     font-size: 1rem;
   }
-  .primary-button {
+  .booking-button {
     font-size: 1rem;
   }
   .home-bannerImage-container {
     max-width: 600px;
   }
-  .search-bar,
-.search-icon{
-  display: none;
-  }
-}
-@media (max-width: 800px) {
-  .search-bar,
-.search-icon{
-  display: none;
-  }
   
+}
+@media (max-width: 801px) {
+  /* .search-bar,
+.search-icon{
+  display: none;
+  } */
+
   .nav-logo-container {
     max-width: 140px;
   }
@@ -294,6 +305,10 @@ nav {
   color: #FFA500;
   cursor: pointer;
 }
+
+@media (min-width:801px) {
+  
+
 .search-bar{
   display: flex;
   width: 220px;
@@ -319,20 +334,13 @@ nav {
 
   
 }
-@media (max-width:600px) {
-  .search-bar,
-.search-icon{
-  display: none;
-  }
-  .search-bar-600{
-    display: flex;
-  width: 100px;
-  background-color: white;
-  padding: 3px;
-  box-sizing: border-box;
-  border-radius: 10px;
+}
+@media (max-width:801px) {
+  .search-bar input{
+    display: none;
   }
   .search-icon{
-    margin: 3px;
+    display: none;
   }
+  
 }

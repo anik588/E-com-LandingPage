@@ -2,7 +2,8 @@
   "name": "e-com-landing-page-anik",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://github.com/anik588/E-com-LandingPage.git",
+  "homepage": "https://anik588.github.io/E-com-LandingPage/",
+
   "dependencies": {
     "@emotion/react": "^11.11.1",
     "@emotion/styled": "^11.11.0",
