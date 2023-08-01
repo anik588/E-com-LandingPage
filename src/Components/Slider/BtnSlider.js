@@ -22,7 +22,7 @@ const BtnSlider = () => {
   return (
     <div>
       <hr />
-      
+      <br></br>
       <div className='btn-div'>
           <button className="arrow-btn left" onClick={handleScrollLeft}>
             <AiOutlineLeft size={24} />

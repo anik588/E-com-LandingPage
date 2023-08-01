@@ -37,15 +37,22 @@
   grid-auto-columns: auto;
   height: auto;
   width: 100%;
+  margin-top: 20px;
   padding-left:5% ;
   padding-right:5% ;
   padding-top: 10px;
   padding-bottom: 10px;
-  overflow-x:hidden ;
+  overflow-x:scroll !important;
   overscroll-behavior:smooth;
-  -webkit-overflow-scrolling: auto;
+  overflow-y: scroll !important;
+  -webkit-overflow-scrolling: auto;}
+  
+  .slider-container::-webkit-scrollbar {
+    display: none;
+  }
+  
   /* Optional: Enable smooth scrolling behavior */
-}
+
 
 /* Style for individual items/slides inside the slider */
 /* Style for the images container (.slider-div) */
@@ -130,8 +137,8 @@
 @media (max-width: 400px) {
   .btn-div p{
     font-size: 1rem;
-    padding-left: 5px;
-    padding-right: 5px;
+    padding-left: 25px;
+    padding-right: 25px;
   }
   .btn-div{
     margin: 0 auto;
