@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/E-com-LandingPage/static/css/main.01996181.css",
-    "main.js": "/E-com-LandingPage/static/js/main.d55dfd49.js",
+    "main.css": "/E-com-LandingPage/static/css/main.058b0919.css",
+    "main.js": "/E-com-LandingPage/static/js/main.bc2c308e.js",
     "static/media/back-1-2.jpg": "/E-com-LandingPage/static/media/back-1-2.bd8b613111dcf7e3344d.jpg",
     "static/media/back-1-1.jpg": "/E-com-LandingPage/static/media/back-1-1.b53737b5ca9e35f457c6.jpg",
     "static/media/Logo.svg": "/E-com-LandingPage/static/media/Logo.c01c3659b000cfec8d5700adbc0546d9.svg",
     "index.html": "/E-com-LandingPage/index.html",
-    "main.01996181.css.map": "/E-com-LandingPage/static/css/main.01996181.css.map",
-    "main.d55dfd49.js.map": "/E-com-LandingPage/static/js/main.d55dfd49.js.map"
+    "main.058b0919.css.map": "/E-com-LandingPage/static/css/main.058b0919.css.map",
+    "main.bc2c308e.js.map": "/E-com-LandingPage/static/js/main.bc2c308e.js.map"
   },
   "entrypoints": [
-    "static/css/main.01996181.css",
-    "static/js/main.d55dfd49.js"
+    "static/css/main.058b0919.css",
+    "static/js/main.bc2c308e.js"
   ]
 }
